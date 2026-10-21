@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aaqib | Landing Page & Portfolio Websites</title>
+<meta name="description" content="Fast, clean aur mobile-friendly landing pages aur portfolio websites. WhatsApp par baat karo.">
+<style>
+:root{--bg:#0b1220;--card:#131c31;--text:#e6ecf5;--muted:#9aa8bf;--accent:#38bdf8;--accent2:#22c55e}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:960px;margin:auto;padding:56px 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;max-width:960px;margin:auto}
+.logo{font-weight:800;font-size:1.2rem;color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#06101f;padding:13px 26px;border-radius:10px;font-weight:700}
+.btn.green{background:var(--accent2);color:#fff}
+.btn.ghost{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+.hero{text-align:center;padding-top:40px}
+.tag{display:inline-block;background:#10243d;color:var(--accent);padding:6px 14px;border-radius:99px;font-size:.85rem}
+h1{font-size:clamp(1.9rem,6vw,3rem);line-height:1.15;margin:18px 0 12px}
+h2{text-align:center;font-size:1.7rem;margin:0 0 8px}
+.sub{text-align:center;color:var(--muted);margin:0 auto 32px;max-width:560px}
+.hero p{color:var(--muted);max-width:560px;margin:0 auto 24px}
+.row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);padding:22px;border-radius:14px;border:1px solid #1d2a47}
+.card h3{margin:0 0 6px}
+.card p{margin:0;color:var(--muted)}
+.ico{font-size:1.8rem;margin-bottom:8px}
+.price{font-size:2rem;font-weight:800;color:var(--accent);margin:6px 0}
+.card ul{padding-left:18px;color:var(--muted);margin:10px 0 0}
+.pop{border-color:var(--accent)}
+.steps{counter-reset:s}
+.steps .card::before{counter-increment:s;content:counter(s);display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#06101f;font-weight:800;align-items:center;justify-content:center;margin-bottom:10px}
+details{background:var(--card);border:1px solid #1d2a47;border-radius:12px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+details p{color:var(--muted);margin:8px 0 0}
+.cta{text-align:center;background:linear-gradient(135deg,#0e2a47,#10243d);border-radius:18px;padding:40px 20px}
+footer{text-align:center;color:var(--muted);padding:28px 20px 90px;font-size:.9rem}
+.wa{position:fixed;right:16px;bottom:16px;background:var(--accent2);color:#fff;padding:14px 20px;border-radius:99px;font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.4);z-index:9}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Aaqib</div>
+  <a class="btn ghost" href="#contact">Contact</a>
+</nav>
+
+<header class="wrap hero">
+  <span class="tag">Landing Pages • Portfolio Websites</span>
+  <h1>Aapka business ya kaam online<br>professional dikhe</h1>
+  <p>Main fast, clean aur mobile-friendly websites banata hoon, taaki aapko zyada customers aur clients mil sakein.</p>
+  <div class="row">
+    <a class="btn green" href="https://wa.me/919667650261?text=Hi%2C%20mujhe%20website%20chahiye">WhatsApp par baat karo</a>
+    <a class="btn ghost" href="#pricing">Pricing dekho</a>
+  </div>
+</header>
+
+<section class="wrap">
+  <h2>Mere saath kyun?</h2>
+  <p class="sub">Simple kaam, saaf baat, time par delivery.</p>
+  <div class="grid">
+    <div class="card"><div class="ico">📱</div><h3>Mobile friendly</h3><p>Phone par bhi perfect dikhta hai.</p></div>
+    <div class="card"><div class="ico">⚡</div><h3>Fast delivery</h3><p>Zyadatar projects 2-4 din mein.</p></div>
+    <div class="card"><div class="ico">💬</div><h3>Seedha contact</h3><p>WhatsApp button se customers aapko turant message karein.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="services">
+  <h2>Services</h2>
+  <p class="sub">Aapko jo chahiye, wahi banaunga.</p>
+  <div class="grid">
+    <div class="card"><div class="ico">🚀</div><h3>Landing Page</h3><p>Ek product ya service bechne ke liye focused page.</p></div>
+    <div class="card"><div class="ico">👤</div><h3>Portfolio Website</h3><p>Apna kaam aur skills dikhane ke liye.</p></div>
+    <div class="card"><div class="ico">🏪</div><h3>Business Page</h3><p>Salon, coaching, shop ya restaurant ke liye.</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Kaise kaam hota hai</h2>
+  <p class="sub">4 simple steps.</p>
+  <div class="grid steps">
+    <div class="card"><h3>Baat karo</h3><p>WhatsApp par apni requirement batao.</p></div>
+    <div class="card"><h3>Design</h3><p>Main aapka page banata hoon.</p></div>
+    <div class="card"><h3>Changes</h3><p>Aap dekho, jo badalna ho batao.</p></div>
+    <div class="card"><h3>Live</h3><p>Page online, link aapke paas.</p></div>
+  </div>
+</section>
+
+<section class="wrap" id="pricing">
+  <h2>Pricing</h2>
+  <p class="sub">Saaf rate, koi chhupa charge nahi.</p>
+  <div class="grid">
+    <div class="card"><h3>Basic</h3><div class="price">₹999</div><ul><li>1 page</li><li>Mobile friendly</li><li>WhatsApp button</li></ul></div>
+    <div class="card pop"><h3>Standard ⭐</h3><div class="price">₹2,499</div><ul><li>3-5 sections</li><li>Contact form</li><li>2 baar changes</li></ul></div>
+    <div class="card"><h3>Premium</h3><div class="price">₹4,999</div><ul><li>Custom design</li><li>Domain help</li><li>Priority support</li></ul></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Sample Work</h2>
+  <p class="sub">Jaise hi pehla project ban jaye, yahan link daalo.</p>
+  <div class="grid">
+    <div class="card"><h3>Project 1</h3><p>Link yahan daalo</p></div>
+    <div class="card"><h3>Project 2</h3><p>Link yahan daalo</p></div>
+  </div>
+</section>
+
+<section class="wrap">
+  <h2>Aksar puchhe jaane wale sawal</h2>
+  <p class="sub">&nbsp;</p>
+  <details><summary>Website kitne din mein banegi?</summary><p>Basic 1-2 din, Standard aur Premium 3-5 din.</p></details>
+  <details><summary>Payment kaise karni hai?</summary><p>Aadha advance, aadha delivery par. UPI se.</p></details>
+  <details><summary>Baad mein changes ho sakte hain?</summary><p>Haan, package ke hisaab se free changes milte hain.</p></details>
+</section>
+
+<section class="wrap" id="contact">
+  <div class="cta">
+    <h2>Chaliye aapka page banate hain</h2>
+    <p class="sub">Aaj hi WhatsApp par message karo.</p>
+    <a class="btn green" href="https://wa.me/919667650261?text=Hi%2C%20mujhe%20website%20chahiye">WhatsApp par baat karo</a>
+    <p style="margin-top:16px;color:var(--muted)">Email: <a href="mailto:aaqibansari5613@gmail.com" style="color:var(--accent)">aaqibansari5613@gmail.com</a></p>
+  </div>
+</section>
+
+<footer>© 2026 Aaqib. Sab adhikar surakshit.</footer>
+
+<a class="wa" href="https://wa.me/919667650261?text=Hi%2C%20mujhe%20website%20chahiye">💬 WhatsApp</a>
+
+</body>
+</html>
