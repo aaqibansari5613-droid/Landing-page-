@@ -34,6 +34,9 @@ h2{text-align:center;font-size:1.7rem;margin:0 0 8px}
 .pop{border-color:var(--accent)}
 .steps{counter-reset:s}
 .steps .card::before{counter-increment:s;content:counter(s);display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--accent);color:#06101f;font-weight:800;align-items:center;justify-content:center;margin-bottom:10px}
+.work .card{display:flex;flex-direction:column;align-items:flex-start}
+.work .badge{display:inline-block;background:#10243d;color:var(--accent);font-size:.75rem;padding:3px 10px;border-radius:99px;margin-bottom:10px}
+.work .btn{margin-top:16px;padding:10px 20px}
 details{background:var(--card);border:1px solid #1d2a47;border-radius:12px;padding:14px 18px;margin-bottom:10px}
 summary{cursor:pointer;font-weight:600}
 details p{color:var(--muted);margin:8px 0 0}
@@ -100,12 +103,31 @@ footer{text-align:center;color:var(--muted);padding:28px 20px 90px;font-size:.9r
   </div>
 </section>
 
-<section class="wrap">
+<section class="wrap work" id="work">
   <h2>Sample Work</h2>
-  <p class="sub">Jaise hi pehla project ban jaye, yahan link daalo.</p>
+  <p class="sub">Mere banaye hue demo pages. Dekho aur khud check karo.</p>
   <div class="grid">
-    <div class="card"><h3>Project 1</h3><p>Link yahan daalo</p></div>
-    <div class="card"><h3>Project 2</h3><p>Link yahan daalo</p></div>
+    <div class="card">
+      <div class="ico">💅</div>
+      <span class="badge">Demo</span>
+      <h3>Beauty Parlour</h3>
+      <p>Services, rate aur WhatsApp booking wala page.</p>
+      <a class="btn" href="https://beauty-parlour-demo-phi.vercel.app" target="_blank" rel="noopener">Demo dekho →</a>
+    </div>
+    <div class="card">
+      <div class="ico">🍛</div>
+      <span class="badge">Demo</span>
+      <h3>Restaurant</h3>
+      <p>Menu, special thali aur WhatsApp order wala page.</p>
+      <a class="btn" href="https://restuarant-demo-mu.vercel.app" target="_blank" rel="noopener">Demo dekho →</a>
+    </div>
+    <div class="card">
+      <div class="ico">🎓</div>
+      <span class="badge">Demo</span>
+      <h3>Course / Coaching</h3>
+      <p>Course ki details aur enquiry wala page.</p>
+      <a class="btn" href="https://freelancing-landing-page-pi.vercel.app" target="_blank" rel="noopener">Demo dekho →</a>
+    </div>
   </div>
 </section>
 
